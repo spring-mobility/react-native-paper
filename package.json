@@ -1,6 +1,6 @@
 {
-  "name": "react-native-paper",
-  "version": "3.6.0",
+  "name": "@spring-mobility/react-native-paper",
+  "version": "3.7.0",
   "description": "Material design for React Native",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
@@ -101,10 +101,7 @@
     "react-native-vector-icons": "*"
   },
   "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn lint && yarn typescript && yarn test"
-    }
+    "hooks": {}
   },
   "jest": {
     "preset": "react-native",
